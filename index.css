@@ -1,0 +1,240 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.container {
+    display: flex;
+    flex-direction: column;
+    width: 2300px;
+    max-width: 100%;
+    margin: auto;
+}
+.cover {
+    background: rgb(117,143,255);
+    background: radial-gradient(circle, rgba(117,143,255,1) 0%, rgba(123,38,255,1) 100%);
+    border-radius: 34px;
+    padding: 25px 0px;
+    width: 100%;
+    margin: auto;
+}
+.nav {
+    border-radius: 34px;
+    margin: auto;
+    width: 70%;
+}
+.navigation a{
+    padding: 20px;
+    font-weight: bold;
+    color: white;
+    text-decoration: none;
+}
+.navigation a:hover{
+    padding: 5px 20px;
+    color: rgb(60, 85, 196);
+    background-color: #ffffff;
+    text-decoration: none;
+    border-radius: 8px;
+    transition-duration: 0.27s;
+}
+.coverbox {
+    margin: 30px 17% 40px;
+    text-align: center;
+}
+.coverbox h1 {
+    color: white;
+    font-weight: bold;
+    font-size: 50px;
+}
+.coverbox a{
+    font-style: italic;
+    color: white;
+}
+.main {
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+    width: 60%;
+    color: #758FFF;
+}
+@media (max-width: 1320px) {
+    .main{
+        width: 80%;
+    }
+  }
+@media (max-width: 720px) {
+    .main{
+        width: 100%;
+    }
+  }
+@media (max-width: 1100px) {
+     .main {
+      flex-direction: column;
+  }
+ }
+.content {
+    flex: 45%;
+}
+.videoblock {
+    padding: 5px;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+.videoblock > h3 {
+    padding: 0 0 0 5px;
+}
+.reviews {
+    display: flex;
+    width: 280px;
+    margin-left: 5%;
+    flex-direction: column;
+}
+@media (max-width: 1100px) {
+    .reviews {
+        margin: auto;
+        padding-top: 20px;
+        width: auto;
+    }
+  }
+.dp {
+    width: 60px;
+    margin: 18px 20px 0 0;
+}
+.client {
+    display: flex;
+    margin: 0 0 15px 0px;
+    
+}
+.clientdetails {
+    display: flex;
+    flex-direction: column;
+}
+.detail {
+    flex: 90%;
+    padding-right: 50px;
+    margin-top: -10%;
+}
+.vids {
+    display: flex;
+    max-width: 100%;
+}
+@media (max-width: 720px) {
+    .vids{
+    flex-direction: column;
+    max-width: 70%;
+    margin: auto;
+    }
+  }
+.info {
+    display: flex;
+    align-items: center;
+    margin-top: 3%;
+}
+@media (max-width: 900px) {
+    .info {
+    flex-direction: column;
+    }
+  }
+.clip {
+    flex: 40%;
+}
+.rating {
+    margin-top: -10px;
+}
+.blanks{
+    padding: 70px;
+    text-align: center;
+    margin: 0 0 50px 0;
+    color: #4E676D;
+}
+.blanks p {
+    color: #758FFF;
+    font-style: italic;
+}
+.close a {
+    color: white;
+    position: relative;
+    font-family: Forte;
+    font-size: 50px;
+    position: relative;
+    float: right;
+    margin-top: -16px;
+    font-weight: bold;
+    cursor: pointer;
+}
+.contacts {
+    background: rgb(117,143,255);
+    background: radial-gradient(circle, rgba(117,143,255,1) 0%, rgba(123,38,255,1) 100%);
+    padding: 30px;
+    border-radius: 1em;
+    width: 660px;
+    box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+    margin: auto;
+    margin-top: 20px;
+}
+.contacts a {
+    padding: 10px;
+    border-radius: 12em;
+}
+.contacts a:hover {
+    background-color: #4E676D;
+    transition-duration: 0.2s;
+}
+.pricing  {
+    background-color: #6D8F98;
+    padding: 1px 30px;
+    border-radius: 1em;
+    width: 760px;
+    box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+    margin: auto;
+    margin-top: 35px;
+    color: #DDE1E2;
+}
+.pricing a {
+    padding: 4px 17px;
+    margin: 0 3px;
+    cursor: pointer;
+}
+footer {
+   position: fixed;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   color: white;
+   text-align: center;
+   background: #758fff;
+}
+ul {
+    background-color: #4E676D;
+    border-radius: 1em;
+    padding: 17px 30px;
+}
+li {
+    color: #DDE1E2;
+    font-size: 17px;
+    padding: 2px 0;
+}
+.options {
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    flex: content;
+    align-items: center;
+}
+.op1 { 
+    margin: 0px;
+}
+.op2 { 
+    margin: 0px 30px;
+}
+.op3 { 
+    margin: 0px;
+}
+.navv a {
+    font-family: Forte;
+    font-size: 30px;
+}
+.op1 li, .op2 li, .op3 li {
+    padding: 6px 0px;
+}
