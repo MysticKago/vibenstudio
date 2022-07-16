@@ -21,6 +21,12 @@ body {
     margin: auto;
     width: 70%;
 }
+@media (max-width: 670px) {
+    .navigation{
+        width: 76%;
+        margin: 20px 0;
+    }
+  }
 .navigation a{
     padding: 20px;
     font-weight: bold;
@@ -110,7 +116,6 @@ body {
 }
 .detail {
     flex: 90%;
-    padding-right: 50px;
 }
 .vids {
     margin-top: 20px;
