@@ -74,7 +74,7 @@ body {
     flex: 45%;
 }
 .videoblock {
-    padding: 5px;
+    margin: 10px;
     width: 100%;
     display: flex;
     flex-wrap: wrap;
@@ -111,9 +111,9 @@ body {
 .detail {
     flex: 90%;
     padding-right: 50px;
-    margin-top: -10%;
 }
 .vids {
+    margin-top: 20px;
     display: flex;
     max-width: 100%;
 }
@@ -125,9 +125,14 @@ body {
     }
   }
 .info {
+    background: rgb(117,143,255);
+    background: radial-gradient(circle, rgba(117,143,255,1) 0%, rgba(123,38,255,1) 100%);
     display: flex;
+    padding: 15px;
+    border-radius: 20px;
     align-items: center;
-    margin-top: 3%;
+    margin-top: 2%;
+    color: white;
 }
 @media (max-width: 900px) {
     .info {
@@ -195,13 +200,14 @@ body {
     cursor: pointer;
 }
 footer {
+   background: rgb(117,143,255);
+   background: radial-gradient(circle, rgba(117,143,255,1) 0%, rgba(123,38,255,1) 100%);
    position: fixed;
    left: 0;
    bottom: 0;
    width: 100%;
    color: white;
    text-align: center;
-   background: #758fff;
 }
 ul {
     background-color: #4E676D;
